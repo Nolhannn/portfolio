@@ -1,0 +1,17 @@
+Fonctionnalités:
+
+-Fond animé
+
+-lien git portfolio
+
+Fonctionnalités à venir :
+
+- barre de navigation
+
+- menu défilant avec option clair/obscur
+
+- bouton pour télécharger CV
+
+- Lien vers LinkedIn
+
+- Lien vers écriture de mail
