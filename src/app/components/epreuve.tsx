@@ -14,8 +14,12 @@ export default function Epreuve(){
     <div className="section1 flex max-w-full justify-center text-center flex-wrap"> 
           <img onClick={()=>{
             setZoom(x=>!x)
-          }} src="/epreuve.png" className={"rounded-3xl cursor-pointer "+ (zoom?"hover:scale-150":"")}alt="" />
+          }} src="/epreuvee.png" className={"rounded-3xl cursor-pointer "+ (zoom?"hover:scale-150":"")}alt="" />
     </div>
       </div>
   )
+
+
+
+
 }
