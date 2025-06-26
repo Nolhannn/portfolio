@@ -9,8 +9,7 @@ import PostgreSQL from "./langue/postgresql"
 import Javascript from "./langue/javascript"
 import Css from "./langue/css"
 import Tailwind from "./langue/tailwind"
-import Swagger from "./langue/swagger"
-import { useState } from "react"
+import Swagger from "./langue/swagger" 
 
 export default function Portfolio(){ 
   

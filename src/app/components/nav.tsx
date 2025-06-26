@@ -51,7 +51,7 @@ export default function Nav(){
           goTO("epreuve")
         }} className="border rounded-3xl flex items-center gap-2 max-w-[90%] p-3 shrink grow justify-center min-w-[90%] cursor-pointer hover:animate-pulse hover:bg-white/50 ">
           <img src="/exam-white.svg" alt="" />
-          <p className="wrap text-center">Détails de l'épreuve</p>
+          <p className="wrap text-center">Détails de l&apos;épreuve</p>
           </span>
           <span onClick={()=>{
           goTO("veille")
