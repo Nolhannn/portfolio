@@ -44,7 +44,7 @@ export default function Nav(){
           <span onClick={()=>{
           goTO("epreuveComp")
         }} className="border rounded-3xl flex items-center gap-2 max-w-[90%] p-3 shrink grow justify-center min-w-[90%] cursor-pointer hover:animate-pulse hover:bg-white/50 ">
-          <img src="/exam-white.svg" alt="" />
+          <img src="/key-white.svg" alt="" />
           <p className="wrap text-center">Compétences clefs</p>
           </span>
           <span onClick={()=>{
