@@ -1,7 +1,7 @@
 "use client"
 export default function Nav(){
   function goTO(id:string){
-    let offsetTop  = document.getElementById(id)!.offsetTop;
+    const offsetTop  = document.getElementById(id)!.offsetTop;
     window.scrollTo({
       top: offsetTop-100, 
       behavior: "smooth"
@@ -10,7 +10,7 @@ export default function Nav(){
   
   return(
     <div className="fixed z-20 bg-[#0b0b1d] animate-[extend_1s_forwards_ease-out] shadow-[0px_0px_15px_1px] top-[65px] right-0  h-screen ">
-      <div className="flex mt-25 items-center flex-col gap-15 animate-[shower_2s_ease-out_forwards]"> 
+      <div className="flex mt-20 items-center flex-col gap-10 animate-[shower_2s_ease-out_forwards]"> 
         <span onClick={()=>{
           goTO("presentation")
         }} className="border rounded-3xl  p-3 cursor-pointer flex items-center justify-center min-w-[90%] gap-2 hover:animate-pulse hover:bg-white/50 ">
@@ -40,6 +40,18 @@ export default function Nav(){
         }} className="border rounded-3xl flex items-center gap-2  p-3 shrink grow justify-center min-w-[90%] cursor-pointer hover:animate-pulse hover:bg-white/50 ">
           <img src="/internship-icon.svg" alt="" />
           <p>Stage</p>
+          </span>
+          <span onClick={()=>{
+          goTO("epreuveComp")
+        }} className="border rounded-3xl flex items-center gap-2 max-w-[90%] p-3 shrink grow justify-center min-w-[90%] cursor-pointer hover:animate-pulse hover:bg-white/50 ">
+          <img src="/exam-white.svg" alt="" />
+          <p className="wrap text-center">Compétences clefs</p>
+          </span>
+          <span onClick={()=>{
+          goTO("epreuve")
+        }} className="border rounded-3xl flex items-center gap-2 max-w-[90%] p-3 shrink grow justify-center min-w-[90%] cursor-pointer hover:animate-pulse hover:bg-white/50 ">
+          <img src="/exam-white.svg" alt="" />
+          <p className="wrap text-center">Détails de l'épreuve</p>
           </span>
           <span onClick={()=>{
           goTO("veille")

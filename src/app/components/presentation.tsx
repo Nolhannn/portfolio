@@ -12,10 +12,10 @@ export default  function Presentation(){
           </div>
           <div className="presentation">
             <p>Bonjour, je suis développeur web :</p>
-            <p>J'ai 26 ans et je suis  passionné par la programmation. 
+            <p>J&apos;ai 26 ans et je suis  passionné par la programmation. 
               Actuellement en reconversion professionnelle,
-              je poursuit une formation en BTS SIO option SLAM.
-              Cette formation est centrée sur le développement web et la gestion de base de donnée.
+              je poursuis une formation en BTS SIO option SLAM.
+              Cette formation est centrée sur le développement web et la gestion de bases de données.
             </p>
           </div>
         </div>

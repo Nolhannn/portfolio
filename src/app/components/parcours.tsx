@@ -63,7 +63,7 @@ export default function Parcours(){
                       <p className="expMin">2022-2023 Les Compagnons du Devoir</p>
                     </div>
                     <div className="exp expC flex flex-col gap-5">
-                      <p className="expMaj">Maîtrise d'Histoire</p>
+                      <p className="expMaj">Maîtrise d&apos;Histoire</p>
                       <p className="expMin">2016-2021 Université Paris-Sorbonne</p>
                     </div>
                     <div className="exp expA flex flex-col gap-5">
