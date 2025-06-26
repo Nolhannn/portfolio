@@ -1,7 +1,7 @@
 "use client"
 export default function Nav(){
   function goTO(id:string){
-    let offsetTop  = document.getElementById(id)!.offsetTop;
+    const offsetTop  = document.getElementById(id)!.offsetTop;
     window.scrollTo({
       top: offsetTop-100, 
       behavior: "smooth"
