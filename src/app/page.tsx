@@ -1,5 +1,4 @@
-
-import Image from "next/image";
+ 
 import Presentation from "./components/presentation";
 import Competence from "./components/competence";
 import Parcours from "./components/parcours";

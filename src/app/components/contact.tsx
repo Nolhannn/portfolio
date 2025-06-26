@@ -1,6 +1,5 @@
 "use client"
-import Link from "next/link"
-
+ 
 export default function Contact(){
   return(
      <div className="flex z-2 flex-col gap-15 justify-center items-center mt-20 mb-20">
